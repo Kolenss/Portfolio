@@ -18,7 +18,7 @@ export default function Contact(){
                     <Input placeholder={'Your Website(if exists)'} name={ 'website' } id={'website'}/>
                     <textarea placeholder='How can I help?' className='p-[5px] border rounded-[5px] w-9/10 min-h-[140px]'/>
                 </form>
-                <div className='md:flex md:flex-row md:w-9/10 md:w-9/10'>
+                <div className='md:flex md:flex-row w-9/10 md:w-9/10'>
                     <div className='w-9/10 flex p-[15px] items-start'>
                         <button className='bg-black text-white p-[10px] rounded-[5px] cursor-pointer'>Get in Touch</button>
                     </div>

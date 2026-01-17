@@ -4,14 +4,14 @@ import Bold from "./boldText";
 
 export default function Info(){
     return(
-        <div className=" flex flex-col items-start justify-center gap-4 text-[25px] md:text-[50px] leading-6 md:gap-[50px]"> 
-          <div>
-            <a className="font-sans"> Hello I am </a> { <Bold boldText={'Chip Collins.'}/> } 
+        <div className="flex flex-col items-start justify-center text-[25px] lg:text-4xl leading-6 md:gap-[30px]"> 
+          <div className="gap-[5px] p-[5px] leading-normal min-w-auto">
+            <a className="font-sans flex-wrap: wrap"> Hello I am </a> { <Bold boldText={' Chip Collins.'}/> } 
           </div>
-          <div>
+          <div className="leading-normal">
             { <Bold boldText={'Frontend'}/> } <a className="font-extrabold text-outline-black"> Developer</a>
           </div>
-          <div>
+          <div className="leading-normal">
             <a className="font-sans">Based in </a>  { <Bold boldText={'Philippines.'}/> }
           </div>
         </div>
